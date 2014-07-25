@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Raspberry" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Raspberry" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="/home/pi/RetroPie/emulators/RetroArch/installdir/bin/retroarch -L /home/pi/RetroPie/emulatorcores/picodrive/picodrive_libretro.so --config /home/pi/RetroPie/configs/all/retroarch.cfg --appendconfig /home/pi/RetroPie/configs/megadrive/retroarch.cfg -idRom C:\LOST WRLD.zip" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DWIN" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Raspberry" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/constant.h" />
+		<Unit filename="src/dirutil.cpp" />
+		<Unit filename="src/dirutil.h" />
+		<Unit filename="src/excepcion.cpp" />
+		<Unit filename="src/fileattr.h" />
+		<Unit filename="src/fileio.cpp" />
+		<Unit filename="src/fileio.h" />
+		<Unit filename="src/listaSimple.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main.h" />
+		<Unit filename="src/tcstring.cpp" />
+		<Unit filename="src/tcstring.h" />
+		<Unit filename="src/traza.cpp" />
+		<Unit filename="src/traza.h" />
+		<Unit filename="src/unzip/crypt.h" />
+		<Unit filename="src/unzip/ioapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/unzip/unzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/unzip/unziptool.cpp" />
+		<Unit filename="src/unzip/unziptool.h" />
+		<Unit filename="src/zlib/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/crc32.h" />
+		<Unit filename="src/zlib/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/deflate.h" />
+		<Unit filename="src/zlib/gzio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inffast.h" />
+		<Unit filename="src/zlib/inffixed.h" />
+		<Unit filename="src/zlib/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inflate.h" />
+		<Unit filename="src/zlib/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inftrees.h" />
+		<Unit filename="src/zlib/minigzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/trees.h" />
+		<Unit filename="src/zlib/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/zconf.h" />
+		<Unit filename="src/zlib/zconf.in.h" />
+		<Unit filename="src/zlib/zlib.h" />
+		<Unit filename="src/zlib/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/zutil.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

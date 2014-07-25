@@ -1,0 +1,1462 @@
+# depslib dependency file v1.0
+1369924143 source:k:\archivos de programa\codeblocks\projects\raspberry\src\main.cpp
+	<iostream>
+	"main.h"
+
+1369923905 k:\archivos de programa\codeblocks\projects\raspberry\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<fcntl.h>
+
+1369349548 source:o:\250\proyectos\codeblocks\projects\raspberry\src\main.cpp
+	<iostream>
+	"main.h"
+
+1369348988 o:\250\proyectos\codeblocks\projects\raspberry\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+
+1363797576 o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\zlib.h
+	"zconf.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\ioapi.h
+
+1364917900 o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\crypt.h
+
+1364900225 o:\250\proyectos\codeblocks\projects\raspberry\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1364896269 o:\250\proyectos\codeblocks\projects\raspberry\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363776457 source:o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1323855902 source:o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\main.c
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+
+1364916946 source:o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1327599888 o:\250\proyectos\codeblocks\projects\raspberry\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1369341748 o:\250\proyectos\codeblocks\projects\raspberry\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+
+1369341897 o:\250\proyectos\codeblocks\projects\raspberry\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+
+1363801577 o:\250\proyectos\codeblocks\projects\raspberry\src\fileattr.h
+	<sstream>
+
+1359725041 o:\250\proyectos\codeblocks\projects\raspberry\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1318502010 o:\250\proyectos\codeblocks\projects\raspberry\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1366198283 source:o:\250\proyectos\codeblocks\projects\raspberry\src\dirutil.cpp
+	"dirutil.h"
+
+1327601590 source:o:\250\proyectos\codeblocks\projects\raspberry\src\excepcion.cpp
+	"excepcion.h"
+
+1357897045 source:o:\250\proyectos\codeblocks\projects\raspberry\src\fileattr.cpp
+	"fileattr.h"
+
+1364900220 source:o:\250\proyectos\codeblocks\projects\raspberry\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1358961955 source:o:\250\proyectos\codeblocks\projects\raspberry\src\listasimple.cpp
+
+1318529512 source:o:\250\proyectos\codeblocks\projects\raspberry\src\tcstring.cpp
+	"tcstring.h"
+
+1328262040 source:o:\250\proyectos\codeblocks\projects\raspberry\src\traza.cpp
+	"traza.h"
+
+1364916803 source:o:\250\proyectos\codeblocks\projects\raspberry\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\adler32.c
+	"zlib.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\compress.c
+	"zlib.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\crc32.h
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\deflate.c
+	"deflate.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\deflate.h
+	"zutil.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inftrees.h
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inflate.h
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inffast.h
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inffixed.h
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363779482 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162814918 o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\trees.h
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\uncompr.c
+	"zlib.h"
+
+1162814918 source:o:\250\proyectos\codeblocks\projects\raspberry\src\zlib\zutil.c
+	"zutil.h"
+
+1369847202 source:k:\archivos de programa\codeblocks\projects\raspberry\src\dirutil.cpp
+	"dirutil.h"
+
+1369846509 k:\archivos de programa\codeblocks\projects\raspberry\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363801577 k:\archivos de programa\codeblocks\projects\raspberry\src\fileattr.h
+	<sstream>
+
+1369740947 k:\archivos de programa\codeblocks\projects\raspberry\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+	<ctime>
+
+1369395791 k:\archivos de programa\codeblocks\projects\raspberry\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+	<iostream>
+
+1369376143 k:\archivos de programa\codeblocks\projects\raspberry\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1359725041 k:\archivos de programa\codeblocks\projects\raspberry\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1327599888 k:\archivos de programa\codeblocks\projects\raspberry\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1364900225 k:\archivos de programa\codeblocks\projects\raspberry\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1327601590 source:k:\archivos de programa\codeblocks\projects\raspberry\src\excepcion.cpp
+	"excepcion.h"
+
+1357897045 source:k:\archivos de programa\codeblocks\projects\raspberry\src\fileattr.cpp
+	"fileattr.h"
+
+1364900220 source:k:\archivos de programa\codeblocks\projects\raspberry\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1358961955 source:k:\archivos de programa\codeblocks\projects\raspberry\src\listasimple.cpp
+
+1363797576 k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\zlib.h
+	"zconf.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\ioapi.h
+
+1364917900 k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\crypt.h
+
+1318529512 source:k:\archivos de programa\codeblocks\projects\raspberry\src\tcstring.cpp
+	"tcstring.h"
+
+1369390033 source:k:\archivos de programa\codeblocks\projects\raspberry\src\traza.cpp
+	"traza.h"
+
+1363776457 source:k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1364916946 source:k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1364916803 source:k:\archivos de programa\codeblocks\projects\raspberry\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\adler32.c
+	"zlib.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\compress.c
+	"zlib.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\crc32.h
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\deflate.c
+	"deflate.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\deflate.h
+	"zutil.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inftrees.h
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inflate.h
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inffast.h
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inffixed.h
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363779482 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162814918 k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\trees.h
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\uncompr.c
+	"zlib.h"
+
+1162814918 source:k:\archivos de programa\codeblocks\projects\raspberry\src\zlib\zutil.c
+	"zutil.h"
+
+1369847204 source:h:\proyectos\zipraspberry\src\dirutil.cpp
+	"dirutil.h"
+
+1369846510 h:\proyectos\zipraspberry\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363801578 h:\proyectos\zipraspberry\src\fileattr.h
+	<sstream>
+
+1369740948 h:\proyectos\zipraspberry\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+	<ctime>
+
+1369395792 h:\proyectos\zipraspberry\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+	<iostream>
+
+1369376144 h:\proyectos\zipraspberry\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1359725042 h:\proyectos\zipraspberry\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1327599888 h:\proyectos\zipraspberry\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1364900226 h:\proyectos\zipraspberry\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1327601590 source:h:\proyectos\zipraspberry\src\excepcion.cpp
+	"excepcion.h"
+
+1364900222 source:h:\proyectos\zipraspberry\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1386191462 source:h:\proyectos\zipraspberry\src\main.cpp
+	<iostream>
+	"main.h"
+
+1369925732 h:\proyectos\zipraspberry\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<fcntl.h>
+
+1363797578 h:\proyectos\zipraspberry\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\zlib.h
+	"zconf.h"
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162814918 h:\proyectos\zipraspberry\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162814918 h:\proyectos\zipraspberry\src\unzip\ioapi.h
+
+1364917902 h:\proyectos\zipraspberry\src\unzip\crypt.h
+
+1318529512 source:h:\proyectos\zipraspberry\src\tcstring.cpp
+	"tcstring.h"
+
+1369390034 source:h:\proyectos\zipraspberry\src\traza.cpp
+	"traza.h"
+
+1363776458 source:h:\proyectos\zipraspberry\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1364916948 source:h:\proyectos\zipraspberry\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1364916804 source:h:\proyectos\zipraspberry\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\adler32.c
+	"zlib.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\compress.c
+	"zlib.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\crc32.h
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\deflate.c
+	"deflate.h"
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\deflate.h
+	"zutil.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\inftrees.h
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\inflate.h
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\inffast.h
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\inffixed.h
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363779484 source:h:\proyectos\zipraspberry\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162814918 h:\proyectos\zipraspberry\src\zlib\trees.h
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\uncompr.c
+	"zlib.h"
+
+1162814918 source:h:\proyectos\zipraspberry\src\zlib\zutil.c
+	"zutil.h"
+
+1369847204 source:h:\rasp\proyectos\zipraspberry\src\dirutil.cpp
+	"dirutil.h"
+
+1369846510 h:\rasp\proyectos\zipraspberry\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363801578 h:\rasp\proyectos\zipraspberry\src\fileattr.h
+	<sstream>
+
+1369740948 h:\rasp\proyectos\zipraspberry\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+	<ctime>
+
+1369395792 h:\rasp\proyectos\zipraspberry\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+	<iostream>
+
+1369376144 h:\rasp\proyectos\zipraspberry\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1359725042 h:\rasp\proyectos\zipraspberry\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1327599888 h:\rasp\proyectos\zipraspberry\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1364900226 h:\rasp\proyectos\zipraspberry\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1327601590 source:h:\rasp\proyectos\zipraspberry\src\excepcion.cpp
+	"excepcion.h"
+
+1364900222 source:h:\rasp\proyectos\zipraspberry\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1386202525 source:h:\rasp\proyectos\zipraspberry\src\main.cpp
+	<iostream>
+	"main.h"
+
+1369925732 h:\rasp\proyectos\zipraspberry\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<fcntl.h>
+
+1363797578 h:\rasp\proyectos\zipraspberry\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\zlib.h
+	"zconf.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\unzip\ioapi.h
+
+1364917902 h:\rasp\proyectos\zipraspberry\src\unzip\crypt.h
+
+1318529512 source:h:\rasp\proyectos\zipraspberry\src\tcstring.cpp
+	"tcstring.h"
+
+1369390034 source:h:\rasp\proyectos\zipraspberry\src\traza.cpp
+	"traza.h"
+
+1363776458 source:h:\rasp\proyectos\zipraspberry\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1364916948 source:h:\rasp\proyectos\zipraspberry\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1364916804 source:h:\rasp\proyectos\zipraspberry\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\adler32.c
+	"zlib.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\compress.c
+	"zlib.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\crc32.h
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\deflate.c
+	"deflate.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\deflate.h
+	"zutil.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\inftrees.h
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\inflate.h
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\inffast.h
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\inffixed.h
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363779484 source:h:\rasp\proyectos\zipraspberry\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162814918 h:\rasp\proyectos\zipraspberry\src\zlib\trees.h
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\uncompr.c
+	"zlib.h"
+
+1162814918 source:h:\rasp\proyectos\zipraspberry\src\zlib\zutil.c
+	"zutil.h"
+
+1369847204 source:i:\rasp\proyectos\zipraspberry\src\dirutil.cpp
+	"dirutil.h"
+
+1369846510 i:\rasp\proyectos\zipraspberry\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363801578 i:\rasp\proyectos\zipraspberry\src\fileattr.h
+	<sstream>
+
+1386241111 i:\rasp\proyectos\zipraspberry\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+	<ctime>
+
+1369395792 i:\rasp\proyectos\zipraspberry\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+	<iostream>
+
+1369376144 i:\rasp\proyectos\zipraspberry\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1359725042 i:\rasp\proyectos\zipraspberry\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1327599888 i:\rasp\proyectos\zipraspberry\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1364900226 i:\rasp\proyectos\zipraspberry\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1327601590 source:i:\rasp\proyectos\zipraspberry\src\excepcion.cpp
+	"excepcion.h"
+
+1364900222 source:i:\rasp\proyectos\zipraspberry\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1386232705 source:i:\rasp\proyectos\zipraspberry\src\main.cpp
+	<iostream>
+	"main.h"
+
+1386233930 i:\rasp\proyectos\zipraspberry\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<fcntl.h>
+
+1363797578 i:\rasp\proyectos\zipraspberry\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\zlib.h
+	"zconf.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\unzip\ioapi.h
+
+1364917902 i:\rasp\proyectos\zipraspberry\src\unzip\crypt.h
+
+1318529512 source:i:\rasp\proyectos\zipraspberry\src\tcstring.cpp
+	"tcstring.h"
+
+1369390034 source:i:\rasp\proyectos\zipraspberry\src\traza.cpp
+	"traza.h"
+
+1363776458 source:i:\rasp\proyectos\zipraspberry\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1364916948 source:i:\rasp\proyectos\zipraspberry\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1386236180 source:i:\rasp\proyectos\zipraspberry\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\adler32.c
+	"zlib.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\compress.c
+	"zlib.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\crc32.h
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\deflate.c
+	"deflate.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\deflate.h
+	"zutil.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\inftrees.h
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\inflate.h
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\inffast.h
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\inffixed.h
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363779484 source:i:\rasp\proyectos\zipraspberry\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162814918 i:\rasp\proyectos\zipraspberry\src\zlib\trees.h
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\uncompr.c
+	"zlib.h"
+
+1162814918 source:i:\rasp\proyectos\zipraspberry\src\zlib\zutil.c
+	"zutil.h"
+
+1369850804 source:e:\programas\codeblocks\projects\ziplaunch\src\dirutil.cpp
+	"dirutil.h"
+
+1369850110 e:\programas\codeblocks\projects\ziplaunch\src\dirutil.h
+	"fileattr.h"
+	"constant.h"
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"traza.h"
+	"listaSimple.h"
+
+1363805178 e:\programas\codeblocks\projects\ziplaunch\src\fileattr.h
+	<sstream>
+
+1386298134 e:\programas\codeblocks\projects\ziplaunch\src\constant.h
+	<sstream>
+	<string.h>
+	<vector>
+	<typeinfo>
+	<ctime>
+
+1369399392 e:\programas\codeblocks\projects\ziplaunch\src\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+	"constant.h"
+	"tcstring.h"
+	<limits.h>
+	<iostream>
+
+1369379744 e:\programas\codeblocks\projects\ziplaunch\src\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1359728642 e:\programas\codeblocks\projects\ziplaunch\src\listasimple.h
+	<string.h>
+	<stdio.h>
+	"constant.h"
+	"excepcion.h"
+	"fileio.h"
+	<typeinfo>
+
+1327603488 e:\programas\codeblocks\projects\ziplaunch\src\excepcion.h
+	<iostream>
+	<cmath>
+	"traza.h"
+
+1364903826 e:\programas\codeblocks\projects\ziplaunch\src\fileio.h
+	<iostream>
+	<fstream>
+	<string>
+	"excepcion.h"
+	"constant.h"
+	"traza.h"
+
+1327605190 source:e:\programas\codeblocks\projects\ziplaunch\src\excepcion.cpp
+	"excepcion.h"
+
+1364903822 source:e:\programas\codeblocks\projects\ziplaunch\src\fileio.cpp
+	"fileio.h"
+	<algorithm>
+	<vector>
+	<iterator>
+
+1386236306 source:e:\programas\codeblocks\projects\ziplaunch\src\main.cpp
+	<iostream>
+	"main.h"
+
+1386237530 e:\programas\codeblocks\projects\ziplaunch\src\main.h
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<vector>
+	"unzip/unziptool.h"
+	"dirutil.h"
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<fcntl.h>
+
+1363801178 e:\programas\codeblocks\projects\ziplaunch\src\unzip\unziptool.h
+	<unistd.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	"crypt.h"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"../fileio.h"
+	"../dirutil.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\zlib.h
+	"zconf.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\unzip\unzip.h
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\unzip\ioapi.h
+
+1364921502 e:\programas\codeblocks\projects\ziplaunch\src\unzip\crypt.h
+
+1318533112 source:e:\programas\codeblocks\projects\ziplaunch\src\tcstring.cpp
+	"tcstring.h"
+
+1369393634 source:e:\programas\codeblocks\projects\ziplaunch\src\traza.cpp
+	"traza.h"
+
+1363780058 source:e:\programas\codeblocks\projects\ziplaunch\src\unzip\ioapi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"ioapi.h"
+
+1364920548 source:e:\programas\codeblocks\projects\ziplaunch\src\unzip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../zlib/zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1386239780 source:e:\programas\codeblocks\projects\ziplaunch\src\unzip\unziptool.cpp
+	"unziptool.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\adler32.c
+	"zlib.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\compress.c
+	"zlib.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	<limits.h>
+	"crc32.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\crc32.h
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\deflate.c
+	"deflate.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\deflate.h
+	"zutil.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\inftrees.h
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\inflate.h
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\inffast.h
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\inffixed.h
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1363783084 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\minigzip.c
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unix.h>
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1162818518 e:\programas\codeblocks\projects\ziplaunch\src\zlib\trees.h
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\uncompr.c
+	"zlib.h"
+
+1162818518 source:e:\programas\codeblocks\projects\ziplaunch\src\zlib\zutil.c
+	"zutil.h"
+

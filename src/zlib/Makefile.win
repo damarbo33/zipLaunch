@@ -1,0 +1,64 @@
+# Project: Zlib-basic
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = adler32.o compress.o crc32.o deflate.o gzio.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o $(RES)
+LINKOBJ  = adler32.o compress.o crc32.o deflate.o gzio.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = Zlib-basic.a
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Zlib-basic.a all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+adler32.o: adler32.c
+	$(CC) -c adler32.c -o adler32.o $(CFLAGS)
+
+compress.o: compress.c
+	$(CC) -c compress.c -o compress.o $(CFLAGS)
+
+crc32.o: crc32.c
+	$(CC) -c crc32.c -o crc32.o $(CFLAGS)
+
+deflate.o: deflate.c
+	$(CC) -c deflate.c -o deflate.o $(CFLAGS)
+
+gzio.o: gzio.c
+	$(CC) -c gzio.c -o gzio.o $(CFLAGS)
+
+infback.o: infback.c
+	$(CC) -c infback.c -o infback.o $(CFLAGS)
+
+inffast.o: inffast.c
+	$(CC) -c inffast.c -o inffast.o $(CFLAGS)
+
+inflate.o: inflate.c
+	$(CC) -c inflate.c -o inflate.o $(CFLAGS)
+
+inftrees.o: inftrees.c
+	$(CC) -c inftrees.c -o inftrees.o $(CFLAGS)
+
+trees.o: trees.c
+	$(CC) -c trees.c -o trees.o $(CFLAGS)
+
+uncompr.o: uncompr.c
+	$(CC) -c uncompr.c -o uncompr.o $(CFLAGS)
+
+zutil.o: zutil.c
+	$(CC) -c zutil.c -o zutil.o $(CFLAGS)

@@ -1,0 +1,117 @@
+# A simple makefile generator by KiSoft, 2010. mailto: kisoft@rambler.ru
+# version: 0.3.12.5
+
+# Project Variables start
+CPP=mingw32-g++.exe
+CC=mingw32-gcc.exe
+LD=mingw32-g++.exe
+LIB=ar.exe
+WINDRES=windres.exe
+# Project Variables end
+
+# Target: Debug
+
+OBJS_DEBUG=obj\Debug\src\dirutil.o obj\Debug\src\excepcion.o obj\Debug\src\fileio.o obj\Debug\src\main.o obj\Debug\src\tcstring.o obj\Debug\src\traza.o obj\Debug\src\unzip\ioapi.o obj\Debug\src\unzip\unzip.o obj\Debug\src\unzip\unziptool.o obj\Debug\src\zlib\adler32.o obj\Debug\src\zlib\compress.o obj\Debug\src\zlib\crc32.o obj\Debug\src\zlib\deflate.o obj\Debug\src\zlib\gzio.o obj\Debug\src\zlib\infback.o obj\Debug\src\zlib\inffast.o obj\Debug\src\zlib\inflate.o obj\Debug\src\zlib\inftrees.o obj\Debug\src\zlib\minigzip.o obj\Debug\src\zlib\trees.o obj\Debug\src\zlib\uncompr.o obj\Debug\src\zlib\zutil.o
+
+Debug: bin/Debug/Raspberry.exe
+
+bin/Debug/Raspberry.exe: $(OBJS_DEBUG)
+	@echo Building console executable bin\Debug\Raspberry.exe
+	@mingw32-g++.exe  -o bin\Debug\Raspberry.exe $(OBJS_DEBUG)   
+
+obj\Debug\src\dirutil.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/dirutil.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\dirutil.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\dirutil.cpp" -o obj\Debug\src\dirutil.o
+
+obj\Debug\src\excepcion.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/excepcion.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\excepcion.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\excepcion.cpp" -o obj\Debug\src\excepcion.o
+
+obj\Debug\src\fileio.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/fileio.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\fileio.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\fileio.cpp" -o obj\Debug\src\fileio.o
+
+obj\Debug\src\main.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/main.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\main.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\main.cpp" -o obj\Debug\src\main.o
+
+obj\Debug\src\tcstring.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/tcstring.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\tcstring.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\tcstring.cpp" -o obj\Debug\src\tcstring.o
+
+obj\Debug\src\traza.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/traza.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\traza.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\traza.cpp" -o obj\Debug\src\traza.o
+
+obj\Debug\src\unzip\ioapi.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/unzip/ioapi.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\ioapi.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\ioapi.c" -o obj\Debug\src\unzip\ioapi.o
+
+obj\Debug\src\unzip\unzip.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/unzip/unzip.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\unzip.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\unzip.c" -o obj\Debug\src\unzip\unzip.o
+
+obj\Debug\src\unzip\unziptool.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/unzip/unziptool.cpp
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\unziptool.cpp"
+	@mingw32-g++.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\unzip\unziptool.cpp" -o obj\Debug\src\unzip\unziptool.o
+
+obj\Debug\src\zlib\adler32.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/adler32.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\adler32.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\adler32.c" -o obj\Debug\src\zlib\adler32.o
+
+obj\Debug\src\zlib\compress.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/compress.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\compress.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\compress.c" -o obj\Debug\src\zlib\compress.o
+
+obj\Debug\src\zlib\crc32.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/crc32.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\crc32.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\crc32.c" -o obj\Debug\src\zlib\crc32.o
+
+obj\Debug\src\zlib\deflate.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/deflate.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\deflate.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\deflate.c" -o obj\Debug\src\zlib\deflate.o
+
+obj\Debug\src\zlib\gzio.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/gzio.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\gzio.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\gzio.c" -o obj\Debug\src\zlib\gzio.o
+
+obj\Debug\src\zlib\infback.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/infback.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\infback.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\infback.c" -o obj\Debug\src\zlib\infback.o
+
+obj\Debug\src\zlib\inffast.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/inffast.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inffast.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inffast.c" -o obj\Debug\src\zlib\inffast.o
+
+obj\Debug\src\zlib\inflate.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/inflate.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inflate.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inflate.c" -o obj\Debug\src\zlib\inflate.o
+
+obj\Debug\src\zlib\inftrees.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/inftrees.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inftrees.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\inftrees.c" -o obj\Debug\src\zlib\inftrees.o
+
+obj\Debug\src\zlib\minigzip.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/minigzip.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\minigzip.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\minigzip.c" -o obj\Debug\src\zlib\minigzip.o
+
+obj\Debug\src\zlib\trees.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/trees.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\trees.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\trees.c" -o obj\Debug\src\zlib\trees.o
+
+obj\Debug\src\zlib\uncompr.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/uncompr.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\uncompr.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\uncompr.c" -o obj\Debug\src\zlib\uncompr.o
+
+obj\Debug\src\zlib\zutil.o: C:/Program\ Files\ (x86)/Codeblocks/Projects/zipRaspberry/src/zlib/zutil.c
+	@echo Compiling: "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\zutil.c"
+	@mingw32-gcc.exe -Wall  -g -DWIN  -DWIN    -c "C:\Program Files (x86)\Codeblocks\Projects\zipRaspberry\src\zlib\zutil.c" -o obj\Debug\src\zlib\zutil.o
+
+.PHONY: clean_Debug
+
+clean_Debug: 
+	@echo Delete $(OBJS_DEBUG) bin\Debug\Raspberry.exe
+	-@del /f $(OBJS_DEBUG) bin\Debug\Raspberry.exe
+
+
+
